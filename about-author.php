@@ -36,7 +36,7 @@
         </nav>
         <h1 class="display-3">Strange, cool clubs?</h1>
         <p class="lead">You can't do anything about what doesn't exist. In the end humans settle for what's in front of them. If you think about it, humans who were unable to do that made discoveries or inventions and advanced civilization. Planes were invented because people wanted to fly. Cars and trains came to be because people wanted easier means to move around. However, this came from a limited number of people who had innovative plans and concepts. In other words, geniuses made it all possible. Common folk like us are best off living an ordinary life.</p>
-        <a class="btn btn-lg btn-success" href="index.php" role="button">Watch Now!</a>
+        <a class="btn btn-lg btn-success" href="comic.php" role="button">Watch Now!</a>
       </div>
 
       <div class="row marketing">
