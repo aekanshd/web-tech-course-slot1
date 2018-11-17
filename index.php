@@ -54,7 +54,7 @@ if(isset($_SESSION['user'])!="")
                           <a href="about-comic.php" class="nav-link m-2 menu-item">About</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link m-2 menu-item">Author</a>
+                          <a href="about-author.php" class="nav-link m-2 menu-item">Author</a>
                       </li>
                   </ul>
               </div>

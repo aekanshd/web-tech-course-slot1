@@ -29,13 +29,13 @@
               <a class="nav-link active" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Author</a>
+              <a class="nav-link" href="about-author.php">Author</a>
             </li>
           </ul>
         </nav>
-        <h1 class="display-3">She was serious.</h1>
+        <h1 class="display-3">She <i>was</i> serious.</h1>
         <p class="lead">I'm Haruhi Suzumiya, from East Junior High. First off, I'm not interested in ordinary people. But, if any of you are aliens, time-travelers, or espers, please come see me. That is all!</p>
-        <a class="btn btn-lg btn-success" href="#" role="button">Watch Now!</a>
+        <a class="btn btn-lg btn-success" href="index.php" role="button">Watch Now!</a>
       </div>
 
       <div class="row marketing">
@@ -57,7 +57,7 @@
         </div>
       </div>
 
-      <footer class="footer">
+      <footer class="footer"><hr>
         <p>&copy; <a href="http://aekansh.in/">Aekansh Dixit</a> 2018</p>
       </footer>
 
