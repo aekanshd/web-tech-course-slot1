@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+body {
+  /*display: -ms-flexbox;*/
+  /*display: -webkit-box;*/
+  /*display: flex;*/
+  /*-ms-flex-align: center;*/
+  /*-ms-flex-pack: center;*/
+  /*-webkit-box-align: center;*/
+  /*align-items: center;*/
+  /*-webkit-box-pack: center;*/
+  /*justify-content: center;*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("https://images4.alphacoders.com/821/thumb-1920-82148.jpg");
+  background-attachment: fixed;
+}
+
+
+.login-background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('https://images4.alphacoders.com/688/thumb-1920-688418.png');
+  background-size: cover;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.login-content:before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  
+  display: block;
+  background-image: url('https://images4.alphacoders.com/688/thumb-1920-688418.png');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+.login-content {
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.form-signin {
+  width: 100%;
+  /*max-width: 330px; */
+  max-width: 500px; 
+
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (max-width: 991.98px) {
+  .align-self-end {
+    -ms-flex-item-align: center!important;
+    align-self: center!important;
+}
+
+}
