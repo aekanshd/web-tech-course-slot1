@@ -10,4 +10,4 @@ You have to write a PHP script that will accept the user credentials that were g
 4. Submit the URL of the working website if you've hosted it on 000webhost.
 5. ZIP your project files and attach the zip if you've made the local server such that if I unzip and host your files on my local server, I should see a working website.
 
-Use the below sample scripts taken from [my website](https://masterakay.000webhostapp.com/) for your references.
+Use the sample scripts taken from [my website](https://masterakay.000webhostapp.com/) for your references.
