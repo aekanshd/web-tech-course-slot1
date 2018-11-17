@@ -13,7 +13,7 @@ You have to write a PHP script that will accept the user credentials that were g
 ### Credentials
 ```yaml
 Username: admin@example.com
-Password: admin@123
+Password: admin123
 ```
 
 Use the sample scripts taken from [my website](https://masterakay.000webhostapp.com/) for your references.
