@@ -31,6 +31,9 @@
             <li class="nav-item">
               <a class="nav-link" href="about-author.php">Author</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="details.php">Details</a>
+            </li>
           </ul>
         </nav>
         <h1 class="display-3">She <i>was</i> serious.</h1>
@@ -53,7 +56,7 @@
 
           <h4>Anime</h4>
           <p>The anime adaptation of The Melancholy of Haruhi Suzumiya (涼宮ハルヒの憂鬱 Suzumiya Haruhi no Yūutsu), produced by the Japanese animation studio Kyoto Animation and directed by Tatsuya Ishihara, contained 14 episodes which aired in Japan between April 2 and July 2, 2006. It was originally aired in a nonlinear order, with the prologue and first seven chapters of the first novel intermixed with chapters from some of the later novels. The "next episode" previews feature two different episode numberings: one number from Haruhi, who numbers the episodes in chronological order, and one number from Kyon, who numbers them in broadcast order. The DVD releases start with "Episode 00" and are then shown in chronological order.</p>
-          <img src="img/disappearance.jpg" class="rounded mx-auto d-block">
+          <img src="img/disappearance.jpg" class="rounded mx-auto d-block img-fluid">
         </div>
       </div>
 

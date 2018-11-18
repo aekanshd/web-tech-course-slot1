@@ -16,4 +16,29 @@ Username: admin@example.com
 Password: admin123
 ```
 
+### Database
+```SQL
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+CREATE DATABASE IF NOT EXISTS `webtechproject` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `webtechproject`;
+DROP TABLE IF EXISTS `info`;
+CREATE TABLE `info` (
+  `id` int(11) NOT NULL,
+  `property` varchar(100) NOT NULL,
+  `value` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ALTER TABLE `info`
+  ADD PRIMARY KEY (`id`);
+ALTER TABLE `info`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+COMMIT;
+```
+
+Or use the file [webtechproject.sql](webtechproject.sql) to import the database. Make sure you change the settings in the [details.php](details.php) page as well.
+
+### To refer
+
 Use the sample scripts taken from [my website](https://masterakay.000webhostapp.com/) for your references.

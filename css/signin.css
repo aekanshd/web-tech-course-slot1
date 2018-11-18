@@ -227,3 +227,22 @@ body {
   background: #ff6600;
   color: white;
 }
+
+.login-box {
+  margin: 15px;
+  background-color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+  text-align: center;
+  color: #007bff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
+  color: white;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: x-small;
+}

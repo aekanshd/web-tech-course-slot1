@@ -30,7 +30,7 @@ if(isset($_SESSION['user'])!="")
   <body class="text-center">
   <div class="container-fluid">
     <div class="row h-100">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 align-self-end">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 align-self-end login-box">
           <!-- example 5 left and center only with empty space right -->
           <!-- example 6 - center on mobile -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,14 +39,14 @@ if(isset($_SESSION['user'])!="")
                   <a class="navbar-brand d-lg-inline-block" href="#">
                       Haruhi Suzumiya
                   </a>
-                  <div class="w-100 text-right">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                          <span class="navbar-toggler-icon"></span>
-                      </button>
-                  </div>
+		        <div class="w-100 text-right">
+		            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+		                <span class="navbar-toggler-icon"></span>
+		            </button>
+		        </div>
               </div>
               <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-                  <ul class="navbar-nav ml-auto flex-nowrap">
+                  <ul class="navbar-nav nav-pills ml-auto flex-nowrap">
                       <li class="nav-item">
                           <a href="#" class="nav-link m-2 menu-item active">Home</a>
                       </li>
@@ -56,13 +56,16 @@ if(isset($_SESSION['user'])!="")
                       <li class="nav-item">
                           <a href="about-author.php" class="nav-link m-2 menu-item">Author</a>
                       </li>
+		              <li class="nav-item">
+		              	  <a class="nav-link m-2 menu-item" href="details.php">Details</a>
+		              </li>
                   </ul>
               </div>
           </nav>
         <!-- <div class="login-background-image"></div> -->
           <form class="form-signin" name="loginForm" id="loginForm">
                       <div class="form-wrapper" style="margin:10px;">
-                        <h1 class="h3 mb-3 font-weight-bold">Please Sign In</h1>
+                        <h1 class="h3 mb-3 text-uppercase">Sign In<br><small class="subtitle">To view exclusive content.</small></h1>
                         <label for="inputEmail" class="sr-only">Email address</label>
                         <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                         <label for="inputPassword" class="sr-only">Password</label>

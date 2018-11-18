@@ -32,6 +32,9 @@
             <li class="nav-item">
               <a class="nav-link active" href="#">Author</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="details.php">Details</a>
+            </li>
           </ul>
         </nav>
         <h1 class="display-3">Strange, cool clubs?</h1>
