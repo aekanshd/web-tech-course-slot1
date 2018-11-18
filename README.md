@@ -17,6 +17,12 @@ Password: admin123
 ```
 
 ### Database
+```php
+$servername = "localhost";
+$username = "id4362835_root";
+$password = "root123";
+$database = "id4362835_webtechproject";
+```
 ```SQL
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
