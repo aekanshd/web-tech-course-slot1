@@ -36,6 +36,13 @@ CREATE TABLE `info` (
   `property` varchar(100) NOT NULL,
   `value` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `info` (`id`, `property`, `value`) VALUES
+(1, 'Written by', 'Nagaru Tanigawa'),
+(2, 'Illustrated by', 'Noizi Ito'),
+(3, 'Published by', 'Kadokawa Shoten'),
+(4, 'Directed by', 'Tatsuya Ishihara'),
+(5, 'Studio', 'Kyoto Animation'),
+(6, 'Episodes', '14 (original)\r\n28 (rebroadcast)');
 ALTER TABLE `info`
   ADD PRIMARY KEY (`id`);
 ALTER TABLE `info`
