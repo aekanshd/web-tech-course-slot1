@@ -23,7 +23,7 @@ $username = "id4362835_root";
 $password = "root123";
 $database = "id4362835_webtechproject";
 ```
-```SQL
+```sql
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
