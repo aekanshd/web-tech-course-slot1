@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id4362835_webtechproject`
+-- Database: `webtechproject`
 --
-CREATE DATABASE IF NOT EXISTS `id4362835_webtechproject` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `id4362835_webtechproject`;
+CREATE DATABASE IF NOT EXISTS `webtechproject` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `webtechproject`;
 
 -- --------------------------------------------------------
 

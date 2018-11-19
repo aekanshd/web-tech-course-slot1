@@ -49,9 +49,9 @@
               <tbody>
             <?php
                 $servername = "localhost";
-                $username = "id4362835_root";
-                $password = "root123";
-                $database = "id4362835_webtechproject";
+                $username = "root";
+                $password = "";
+                $database = "webtechproject";
 
                 // Create connection
                 $conn = new mysqli($servername, $username, $password, $database);
